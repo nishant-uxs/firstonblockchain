@@ -1,0 +1,15 @@
+[package]
+name = "NFTDiploma"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Diploma= '0x58b2489272c53b0b7aab36b6208c5063f4c9da41bf6fd1f4e18f2da8ccfa8110'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
